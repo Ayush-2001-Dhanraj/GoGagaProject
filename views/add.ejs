@@ -1,0 +1,19 @@
+<%- include("partial/header") %>
+<h1><%= heading %></h1>
+<main>
+<h2>Add the name and location</h2>
+<div class="from-container">
+  <form class="" action="/add" method="post" autocomplete="off">
+    <div class="container">
+      <label for="name"> Name :
+        <input id="name" type="text" name="name">
+      </label>
+      <label for="location"> location :
+        <input id="location" type="text" name="location">
+      </label>
+    </div>
+    <input type="submit" name="sumit" value="submit">
+  </form>
+</div>
+</main>
+<%- include("partial/footer") %>

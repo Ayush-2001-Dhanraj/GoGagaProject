@@ -1,0 +1,16 @@
+<%- include("partial/header") %>
+<h1><%= heading %></h1>
+<main>
+<hr>
+<div class="search-form">
+  <h2>Search a record by name or location</h2>
+  <form class="" action="/search" method="post" autocomplete="off">
+    <label for="search"> Name/Location :
+      <input id="search" type="text" name="search" value="">
+    </label>
+    <input type="submit" name="submit" value="search 🔎">
+  </form>
+</div>
+</main>
+
+<%- include("partial/footer") %>
